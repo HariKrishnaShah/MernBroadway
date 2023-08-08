@@ -30,31 +30,45 @@
 // }
 // alert(days);
 
+// const x = Number(prompt("Enter the first number"));
+// const y = Number(prompt("Enter the Second number"));
+// let ans = 0;
+// const action = Number(prompt("Enter 1 to add, 2 to subtract, 3 to multiply and 4 to divide"));
+
+// switch(action)
+// {
+//     case 1:
+//         ans = x + y;
+//         alert("The answer is " + ans);
+//         break;
+//     case 2:
+//         ans = x - y;
+//         alert("The answer is " + ans);
+//         break;
+//     case 3:
+//         ans = x * y;
+//         alert("The answer is " + ans);
+//         break;
+//     case 4:
+//         ans = x / y;
+//         alert("The answer is " + ans);
+//         break;
+//     default:
+//         alert("Invalid command")
+// }
+
+// const returnUpper = (name) =>{return (name.toUpperCase())}
+// alert("The name in uppercase is  " + returnUpper("hari shah"));
+
 const x = Number(prompt("Enter the first number"));
-const y = Number(prompt("Enter the Second number"));
-let ans = 0;
-const action = Number(prompt("Enter 1 to add, 2 to subtract, 3 to multiply and 4 to divide"));
+const y = Number(prompt("Enter the second number"));
+const add = (a, b) =>{return a+b};
+let ans = add(x, y);
+alert("The sum is " + ans);
 
-switch(action)
-{
-    case 1:
-        ans = x + y;
-        alert("The answer is " + ans);
-        break;
-    case 2:
-        ans = x - y;
-        alert("The answer is " + ans);
-        break;
-    case 3:
-        ans = x * y;
-        alert("The answer is " + ans);
-        break;
-    case 4:
-        ans = x / y;
-        alert("The answer is " + ans);
-        break;
-    default:
-        alert("Invalid command")
 
-}
+const mult = (a, b) =>{return a*b};
+ans = mult(x, y);
+alert("The multiplication is " + ans);
+
 
